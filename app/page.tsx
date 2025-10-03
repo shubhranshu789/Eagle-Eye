@@ -136,8 +136,14 @@ export default function HomePage() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2 animate-fade-in">
-              <Shield className="w-8 h-8 text-[#4a9eff]" />
-              <span className="text-xl font-bold text-white">Eagle Eye Technology</span>
+              <img
+                src="/logo2.png"
+                alt="Eagle Eye Logo"
+                className="w-15 h-15 object-contain"
+              />
+              <span className="text-xl font-bold text-white">
+                Eagle Eye Technology
+              </span>
             </div>
 
             {/* Desktop Menu */}
@@ -404,7 +410,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in-up">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Why Choose <span className="text-[#4a9eff]">Eagle Eye Technologies</span>
+              Why Choose <span className="text-[#4a9eff]">Eagle Eye Technology</span>
             </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
               Industry-leading security solutions backed by years of expertise and innovation
@@ -613,7 +619,8 @@ export default function HomePage() {
                     <Phone className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-white mb-3">Call Us</h3>
-                  <p className="text-[#4a9eff] font-semibold mb-1">+1 (555) 123-4567</p>
+                  <p className="text-[#4a9eff] font-semibold mb-1">+91-9666522702</p>
+                  <p className="text-[#4a9eff] font-semibold mb-1">+91-8919768028</p>
                   <p className="text-gray-400 text-sm">Available 24/7 for emergencies</p>
                 </CardContent>
               </Card>
@@ -625,7 +632,7 @@ export default function HomePage() {
                     <Mail className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-white mb-3">Email Us</h3>
-                  <p className="text-[#4a9eff] font-semibold mb-1">info@secureguardpro.com</p>
+                  <p className="text-[#4a9eff] font-semibold mb-1">Sales@techeagleeye.com </p>
                   <p className="text-gray-400 text-sm">We'll respond within 2 hours</p>
                 </CardContent>
               </Card>
@@ -637,8 +644,12 @@ export default function HomePage() {
                     <MapPin className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-white mb-3">Visit Us</h3>
-                  <p className="text-[#4a9eff] font-semibold mb-1">123 Security Street, Safe City,</p>
-                  <p className="text-gray-400 text-sm">SC 12345</p>
+                  <p className="text-[#4a9eff] font-semibold mb-1">5-89/A/1, Narsingi Gandipet
+                    Road, Ranga Reddy
+                    Hyderabad, Telangana
+                    500089
+                  </p>
+                  {/* <p className="text-gray-400 text-sm">SC 12345</p> */}
                 </CardContent>
               </Card>
 
@@ -649,7 +660,8 @@ export default function HomePage() {
                     <Clock className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-white mb-3">Business Hours</h3>
-                  <p className="text-[#4a9eff] font-semibold mb-1">Mon - Fri: 9AM - 6PM</p>
+                  <p className="text-[#4a9eff] font-semibold mb-1 text-sm">Mon - Fri: 10:00 AM - 9:00 PM</p>
+                  <p className="text-[#4a9eff] font-semibold mb-1 text-sm">Sat - Sun: 10:00 AM - 07:00 PM</p>
                   <p className="text-gray-400 text-sm">24/7 emergency support</p>
                 </CardContent>
               </Card>

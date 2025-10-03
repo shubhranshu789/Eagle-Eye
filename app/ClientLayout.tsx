@@ -278,7 +278,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
                 <motion.span
                   // className="text-6xl font-bold bg-gradient-to-r from-emerald-400 via-green-400 to-teal-300 bg-clip-text text-transparent cursor-default relative"
                   className="text-6xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 via-cyan-400 to-blue-500 bg-clip-text text-transparent cursor-default relative"
-                // bg-gradient-to-r from-blue-400 via-purple-500 via-cyan-400 to-blue-500
+                  // bg-gradient-to-r from-blue-400 via-purple-500 via-cyan-400 to-blue-500
                   variants={wordVariants}
                   whileHover={{
                     scale: 1.15,
@@ -330,40 +330,43 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
                   backgroundSize: "400% 400%",
                 }}
               >
-                Eagle Eye
-                <motion.div
-                  className="absolute inset-0 text-8xl font-extrabold tracking-widest text-blue-400/30 blur-sm -z-10"
-                  animate={{
-                    opacity: [0.3, 0.7, 0.3],
-                    scale: [1, 1.02, 1],
-                  }}
-                  transition={{
-                    duration: 3,
-                    repeat: Number.POSITIVE_INFINITY,
-                    ease: "easeInOut",
-                  }}
-                >
-                  {/* WēSIBL */}
-                </motion.div>
-
-
-
 
                 <motion.div
-                  className="absolute inset-0 text-8xl font-extrabold tracking-widest text-purple-400/20 blur-md -z-20"
-                  animate={{
-                    opacity: [0.2, 0.5, 0.2],
-                    scale: [1, 1.05, 1],
+                  className="flex justify-center items-center mt-10"
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{ duration: 1, ease: "easeOut" }}
+                  whileHover={{
+                    scale: 1.1,
+                    rotate: [0, 5, -5, 0],
+                    boxShadow: "0 0 20px rgba(74,158,255,0.8), 0 0 40px rgba(147,51,234,0.5)",
                   }}
-                  transition={{
-                    duration: 4,
-                    repeat: Number.POSITIVE_INFINITY,
-                    ease: "easeInOut",
-                    delay: 1,
-                  }}
+                  whileTap={{ scale: 0.95 }}
+                  drag
+                  dragConstraints={{ top: -50, bottom: 50, left: -50, right: 50 }}
+                  dragElastic={0.3}
+                  // className="relative"
                 >
-                  {/* WēSIBL */}
+                  <motion.img
+                    src="/logo2.png"
+                    alt="Eagle Eye Logo"
+                    className="w-70 h-auto object-contain"
+                    animate={{
+                      rotate: [0, 2, -2, 0],
+                      filter: [
+                        "drop-shadow(0 0 10px rgba(74,158,255,0.5))",
+                        "drop-shadow(0 0 20px rgba(74,158,255,0.8))",
+                        "drop-shadow(0 0 10px rgba(74,158,255,0.5))",
+                      ],
+                    }}
+                    transition={{
+                      duration: 3,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                    }}
+                  />
                 </motion.div>
+
               </motion.h1>
             </motion.div>
           )}
