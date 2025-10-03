@@ -250,7 +250,7 @@ export default function HomePage() {
             </p>
 
             <div className="flex flex-wrap gap-4 mb-12 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
-              <Button className="bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] hover:from-[#5558e3] hover:to-[#7c4de7] text-white px-8 py-6 text-lg group">
+              {/* <Button className="bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] hover:from-[#5558e3] hover:to-[#7c4de7] text-white px-8 py-6 text-lg group">
                 Get Started
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
@@ -259,7 +259,7 @@ export default function HomePage() {
                 className="border-gray-600 text-white hover:bg-white/10 px-8 py-6 text-lg bg-transparent"
               >
                 Learn More
-              </Button>
+              </Button> */}
             </div>
 
             <div className="flex flex-wrap gap-8 md:gap-12 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>

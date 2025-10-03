@@ -393,7 +393,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
                 />
               ))}
             </div>
-            <motion.p
+            {/* <motion.p
               style = {{display : "flex" , flexDirection : "column" , justifyContent : "center" , alignItems : "center"}}
               className="text-sm text-gray-400 mt-4 text-center font-medium"
               animate={{
@@ -406,7 +406,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
               }}
             >
               Loading Experience...
-            </motion.p>
+            </motion.p> */}
           </motion.div>
         </motion.div>
       ) : (
