@@ -202,18 +202,18 @@ export default function HomePage() {
                 <a href="#testimonials" className="text-gray-300 hover:text-[#4a9eff] transition-colors">
                   Testimonials
                 </a>
-                <a href="#about" className="text-gray-300 hover:text-[#4a9eff] transition-colors">
+                {/* <a href="#about" className="text-gray-300 hover:text-[#4a9eff] transition-colors">
                   About
-                </a>
+                </a> */}
                 <a href="#contact" className="text-gray-300 hover:text-[#4a9eff] transition-colors">
                   Contact
                 </a>
-                <div className="flex flex-col gap-2 pt-2">
+                {/* <div className="flex flex-col gap-2 pt-2">
                   <Button variant="outline" className="border-[#4a9eff] text-[#4a9eff] bg-transparent">
                     Login
                   </Button>
                   <Button className="bg-gradient-to-r from-[#6366f1] to-[#8b5cf6]">Get Quote</Button>
-                </div>
+                </div> */}
               </div>
             </div>
           )}
@@ -784,12 +784,18 @@ export default function HomePage() {
       <footer className="bg-[#050d1a] py-12 border-t border-gray-800">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-[#4a9eff]" />
-              <span className="text-white font-bold">Eagle Eye Technology</span>
+            <div className="flex items-center gap-2 animate-fade-in">
+              <img
+                src="/logo2.png"
+                alt="Eagle Eye Logo"
+                className="w-10 h-10 object-contain"
+              />
+              <span className="text-xl font-bold text-white">
+                Eagle Eye Technology
+              </span>
             </div>
             <p className="text-gray-400 text-sm">© 2025 Eagle Eye Technology. All rights reserved.</p>
-            <div className="flex gap-6">
+            {/* <div className="flex gap-6">
               <a href="#" className="text-gray-400 hover:text-[#4a9eff] transition-colors">
                 Privacy
               </a>
@@ -799,7 +805,7 @@ export default function HomePage() {
               <a href="#" className="text-gray-400 hover:text-[#4a9eff] transition-colors">
                 Support
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
