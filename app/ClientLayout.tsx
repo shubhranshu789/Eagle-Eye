@@ -258,7 +258,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
                   }}
                   transition={{ type: "spring", stiffness: 300, damping: 20 }}
                 >
-                  Secureeeeee
+                  Secure
                   <motion.div
                     className="absolute inset-0 bg-gradient-to-r from-blue-400/10 to-transparent rounded-lg blur-xl -z-10"
                     animate={{
