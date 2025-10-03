@@ -11,7 +11,11 @@ import ClientLayout from "../app/ClientLayout"
 export const metadata: Metadata = {
   title: "Eagle Eye Technology - Advanced Security Solutions",
   description: "Professional security solutions with 24/7 monitoring, AI-powered detection, and expert installation.",
-  generator: "v0.app",
+  generator: "ShubhTech",
+  icons: {
+    icon: "/logo2.png", // your logo file in the /public folder
+    shortcut: "/logo2.png", // optional, for shortcut icon
+  },
 }
 
 export default function RootLayout({
