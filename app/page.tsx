@@ -109,10 +109,10 @@ export default function HomePage() {
     if (formRef.current) {
       emailjs
         .sendForm(
-          "service_cflzjol",   // 🔹 replace with EmailJS Service ID
-          "template_vk3v27i",  // 🔹 replace with EmailJS Template ID
+          "service_7cgzkag",   // 🔹 replace with EmailJS Service ID
+          "template_rb70ara",  // 🔹 replace with EmailJS Template ID
           formRef.current,
-          "2l6Cs3kRLAynezLeG"    // 🔹 replace with EmailJS Public Key
+          "TW0MZkqiRtXpFp76Z"    // 🔹 replace with EmailJS Public Key
         )
         .then(
           () => {
@@ -754,6 +754,27 @@ export default function HomePage() {
                       placeholder="Enter your phone number"
                     />
                   </div>
+
+
+                  <div>
+                    <label className="block text-white mb-2 text-sm">Select Service</label>
+                    <select
+                      name="service"
+                      className="w-full px-4 py-3 bg-[#0a1628] border border-gray-700 rounded-lg text-white placeholder:text-gray-500 focus:border-[#4a9eff] focus:outline-none transition-colors"
+                      required
+                    >
+                      <option value="">-- Choose a Service --</option>
+                      <option value="CCTV Surveillance">CCTV Surveillance</option>
+                      <option value="Access Control">Access Control</option>
+                      <option value="Alarm Systems">Alarm Systems</option>
+                      <option value="Regular Monitoring">Regular Monitoring</option>
+                      <option value="Video Analytics">Video Analytics</option>
+                      <option value="Installation & Support">Installation & Support</option>
+                    </select>
+                  </div>
+
+
+
                   <div>
                     <label className="block text-white mb-2 text-sm">Message</label>
                     <textarea
