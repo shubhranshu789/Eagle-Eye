@@ -46,7 +46,7 @@ export default function HomePage() {
       role: "Homeowner",
       image: "/testimonials/2.JPG",
       rating: 5,
-      text: "Eagle Eye Technologies transformed our home security. The installation was seamless, and the 24/7 monitoring gives us complete peace of mind.",
+      text: "Eagle Eye Technology transformed our home security. The installation was seamless, and the 24/7 monitoring gives us complete peace of mind.",
     },
     {
       name: "Mayank Srivastava",
@@ -58,7 +58,7 @@ export default function HomePage() {
     {
       name: "Prasannjeet",
       role: "Property Manager",
-      image: "/testimonials/3.JPG",
+      image: "/testimonials/3.jpg",
       rating: 5,
       text: "Managing multiple properties is easier with Eagle Eye. Their scalable solutions and responsive support team are second to none.",
     },
@@ -405,7 +405,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Why Choose Eagle Eye Technologies */}
+      {/* Why Choose Eagle Eye Technology */}
       <section id="features" className="py-24 bg-[#0a1628]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in-up">
