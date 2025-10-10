@@ -42,37 +42,37 @@ export default function HomePage() {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
+      name: "Archi Srivastava",
       role: "Homeowner",
-      image: "/professional-woman-smiling.png",
+      image: "/testimonials/2.JPG",
       rating: 5,
       text: "Eagle Eye Technologies transformed our home security. The installation was seamless, and the 24/7 monitoring gives us complete peace of mind.",
     },
     {
-      name: "Michael Chen",
+      name: "Mayank Srivastava",
       role: "Business Owner",
-      image: "/professional-businessman.png",
+      image: "/testimonials/6.jpg",
       rating: 5,
       text: "Outstanding service! Their commercial security system has significantly reduced theft and improved our overall safety. Highly recommended!",
     },
     {
-      name: "Emily Rodriguez",
+      name: "Prasannjeet",
       role: "Property Manager",
-      image: "/professional-woman-glasses.png",
+      image: "/testimonials/3.JPG",
       rating: 5,
       text: "Managing multiple properties is easier with Eagle Eye. Their scalable solutions and responsive support team are second to none.",
     },
     {
-      name: "David Thompson",
+      name: "Mohammad Daud",
       role: "Restaurant Owner",
-      image: "/placeholder.svg?height=100&width=100",
+      image: "/testimonials/4.JPG?height=100&width=100",
       rating: 5,
       text: "The AI-powered analytics have been a game-changer for our business. We can monitor multiple locations from one dashboard with ease.",
     },
     {
-      name: "Lisa Martinez",
+      name: "Imran Ahamd",
       role: "Retail Store Manager",
-      image: "/placeholder.svg?height=100&width=100",
+      image: "/testimonials/5.JPG?height=100&width=100",
       rating: 5,
       text: "Exceptional customer service and cutting-edge technology. The facial recognition feature has helped us prevent multiple security incidents.",
     },
@@ -341,7 +341,7 @@ export default function HomePage() {
               },
               {
                 icon: Clock,
-                title: "24/7 Monitoring",
+                title: "Regular Monitoring",
                 description:
                   "Round-the-clock professional monitoring service ensuring immediate response to any security event.",
                 features: [
@@ -816,6 +816,7 @@ export default function HomePage() {
               </span>
             </div>
             <p className="text-gray-400 text-sm">© 2025 Eagle Eye Technology. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">Made by ShubhTech❤</p>
             {/* <div className="flex gap-6">
               <a href="#" className="text-gray-400 hover:text-[#4a9eff] transition-colors">
                 Privacy
@@ -828,6 +829,9 @@ export default function HomePage() {
               </a>
             </div> */}
           </div>
+              {/* <div style={{display : "flex" , justifyContent : "center" ,alignItems : "center"}}>
+                <p className="text-gray-400 text-sm">Made by ShubhTech❤</p>
+              </div> */}
         </div>
       </footer>
     </div>
